@@ -1,0 +1,35 @@
+[
+  {
+    "id": "monetary",
+    "name": "Monetary Desk",
+    "description": "Explore how interest rates influence inflation and demand.",
+    "turns": 4,
+    "allowed": [
+      "interest"
+    ],
+    "shockTurn": null
+  },
+  {
+    "id": "fiscal",
+    "name": "Fiscal Desk",
+    "description": "Explore taxes, public spending, and the budget.",
+    "turns": 4,
+    "allowed": [
+      "tax",
+      "spending"
+    ],
+    "shockTurn": null
+  },
+  {
+    "id": "crisis",
+    "name": "Crisis Response",
+    "description": "Coordinate monetary and fiscal decisions during a supply shock.",
+    "turns": 4,
+    "allowed": [
+      "interest",
+      "tax",
+      "spending"
+    ],
+    "shockTurn": 2
+  }
+]
